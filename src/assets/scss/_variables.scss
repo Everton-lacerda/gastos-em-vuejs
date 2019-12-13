@@ -1,0 +1,35 @@
+$dark: #000 !important;
+$darker: #111 !important;
+$dark-medium: #333 !important;
+$dark-medium-opacity: rgba(51, 51, 51, 0.884) !important;
+$dark-low: #666 !important;
+$light-low: #999 !important;
+$light-medium: #F5F8FA !important;
+$ligther: #ddd !important;
+$light: #fff !important;
+$bg-dashbord: #081018;
+$bg-dashbord-text: #636466;
+$bg-dashbord-text-active: #C23057;
+$bg-text-active: rgba(194, 48, 87, 0.137);
+
+$featured: #FF3366 !important;
+$featured-dark: rgb(207, 52, 91) !important;
+
+
+:root {
+    --dark: #{$dark};
+    --darker: #{$darker};
+    --dark-medium: #{$dark-medium};
+    --dark-medium-opacity: #{$dark-medium-opacity};
+    --dark-low: #{$dark-low};
+    --light-low: #{$light-low};
+    --light-medium: #{$light-medium};
+    --ligther: #{$ligther};
+    --light: #{$light};
+    --featured: #{$featured};
+    --featured-dark: #{$featured-dark};
+    --bg-dashbord: #{$bg-dashbord};
+    --bg-dashbord-text: #{$bg-dashbord-text};
+    --bg-dashbord-text-active: #{$bg-dashbord-text-active};
+    --bg-text-active: #{$bg-text-active};
+  }
