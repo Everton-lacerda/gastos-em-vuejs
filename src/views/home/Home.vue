@@ -13,12 +13,12 @@
       <div class="col-6 home-box">
         <small>O maior gasto foi de</small>
         <div class="money" v-money-format="totals.biggest.value"></div>
-        <small>no dia 12/02/2019</small>
+        <small v-date-format="totals.biggest.createdAt"></small>
       </div>
       <div class="col-6 home-box">
         <small>O menor gasto foi de</small>
         <div class="money" v-money-format="totals.lowest.value"></div>
-        <small>no dia 03/02/2019</small>
+        <small v-date-format="totals.lowest.createdAt"></small>
       </div>
     </div>
   </div>
